@@ -39,14 +39,14 @@ $webroot_path=$this->requestAction(array('controller' => 'i', 'action' => 'webro
 <link href="<?php echo $webroot_path ?>assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
 <link href="<?php echo $webroot_path ?>assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
 <link href="<?php echo $webroot_path ?>assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
-<link id="style_color" href="<?php echo $webroot_path ?>assets/admin/layout/css/themes/light2.css" rel="stylesheet" type="text/css"/>
+<link id="style_color" href="<?php echo $webroot_path ?>assets/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css"/>
 <link href="<?php echo $webroot_path ?>assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
-<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="shortcut icon" href="<?php echo $webroot_path ?>img/favicon.ico"/>
 <script src="<?php echo $webroot_path; ?>js/jquery-1.8.3.min.js"></script>
 <style>
 .font-green-sharp {
-    color: #fcb82e !important;
+    color: #0a1942 !important;
 }
 </style>
 </head>
@@ -85,7 +85,7 @@ echo $this->requestAction(array('controller' => 'i', 'action' => 'auto_update'))
 		<!-- /.modal-dialog -->
 	</div>
 <!-- BEGIN HEADER -->
-<div class="page-header navbar navbar-fixed-top" style="background-color: #3d3736;">    
+<div class="page-header navbar navbar-fixed-top" >    
 	<!-- BEGIN HEADER INNER -->
 	<div class="page-header-inner">
 		<!-- BEGIN LOGO -->
